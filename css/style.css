@@ -769,7 +769,6 @@ p {
 }
 
 .banner-area {
-    height: 1020px;
     position: relative
 }
 
@@ -1803,7 +1802,8 @@ p {
     }
 }
 
-.banefits-area .banefits-color {
+.banefits-area .banefits-color,
+.token-sale-area .banefits-color {
     position: absolute;
     left: 50%;
     top: 0;
@@ -2245,9 +2245,9 @@ p {
 }
 
 .token-sale-area .token-sale-item {
-    background-color: rgba(42, 18, 92, 0.4);
+    background-color: rgb(255 255 255);
     border-radius: 4px;
-    padding: 30px 0px
+    padding: 0px;
 }
 
 .token-sale-area .token-sale-item .circle-1,
@@ -2350,10 +2350,10 @@ p {
 }
 
 .token-sale-area .token-sale-start p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .token-sale-area .token-sale-active .slick-arrow {

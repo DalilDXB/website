@@ -166,7 +166,7 @@ $(function () {
         nextArrow: '<span class="next"><i class="fa fa-angle-right"></i></span>',
         arrows: true,
         speed: 1500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 2,
         responsive: [{
                 breakpoint: 1201,
@@ -178,7 +178,7 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 2,
                 }
             },

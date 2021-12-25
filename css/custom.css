@@ -2,6 +2,11 @@
     background: url(../assets/main-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 157px 0;
+}
+
+.banner-area .banner-content {
+    padding: 150px 0;
 }
 
 @media (min-width: 1800px) {
