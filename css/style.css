@@ -817,6 +817,7 @@ p {
     color: #fff;
     background: -webkit-gradient(linear, left top, right top, from(#fff), to(#e9d4ff));
     background: linear-gradient(90deg, #fff 0%, #e9d4ff 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
@@ -1717,6 +1718,7 @@ p {
 .who-we-are-area .who-we-are-content .title {
     font-size: 50px;
     line-height: 60px;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -ms-linear-gradient(0deg, #03aff2 0%, #0074dd 100%);
@@ -1966,6 +1968,7 @@ p {
 .marketplace-area .marketplace-item span {
     font-size: 24px;
     font-weight: 500;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(0deg, #03aff2 0%, #0074dd 100%)
