@@ -1,0 +1,16 @@
+.banner-area {
+    background: url(../assets/main-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1800px) {
+
+    .banner-area {
+
+        background-size: cover;
+        background-position: center bottom;
+
+    }
+
+}
