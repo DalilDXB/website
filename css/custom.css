@@ -1,41 +1,0 @@
-.banner-area {
-    background: url(../assets/header-bg.png);
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding: 157px 0;
-}
-
-.banner-area .banner-content {
-    padding: 130px 0;
-}
-
-@media (max-width: 1024px) {
-
-    .banner-area {
-background-size: cover;
-height: 100vh;
-background-position: center bottom;
-}
-
-}
-
-@media (min-width: 1025px) {
-
-    .banner-area {
-background-size: cover;
-height: 75vh;
-background-position: 0px -163px;
-}
-
-}
-
-@media (min-width: 1800px) {
-
-    .banner-area {
-background-size: cover;
-height: 70vh;
-background-position: 0 -450px;
-}
-
-}
