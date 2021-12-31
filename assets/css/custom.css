@@ -1,6 +1,5 @@
 .banner-area {
     min-height: 500px;
-    background: ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +23,7 @@
 
 ul.menu {
     /* background-color: chartreuse; */
-    margin-left: 180px;
+    margin-left: 98px;
 }
 
 .highlight {
@@ -39,22 +38,4 @@ ul.menu {
 
 .banner-area .banner-content {
     padding: 130px 0;
-}
-
-@media (max-width: 1024px) {
-
-    .banner-area {}
-
-}
-
-@media (min-width: 1025px) {
-
-    .banner-area {}
-
-}
-
-@media (min-width: 1800px) {
-
-    .banner-area {}
-
 }
