@@ -32,6 +32,10 @@ ul.menu {
     color: #f1e757;
 }
 
+.timeline .timeline-row:before {
+    background: #dee0e2;
+}
+
 
 .banner-area .banner-content {
     padding: 130px 0;
