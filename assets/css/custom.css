@@ -22,6 +22,16 @@
     }
 }
 
+ul.menu {
+    /* background-color: chartreuse; */
+    margin-left: 180px;
+}
+
+.highlight {
+
+    color: #f1e757;
+}
+
 
 .banner-area .banner-content {
     padding: 130px 0;
