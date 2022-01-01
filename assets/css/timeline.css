@@ -207,7 +207,7 @@
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .timeline .timeline-continue::after {
         left: 40px;
     }

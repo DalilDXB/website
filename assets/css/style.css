@@ -5,7 +5,7 @@ body {
     font-weight: normal;
     font-style: normal;
     color: #ffffff;
-    background: #000302;
+    background: #010001;
     overflow-x: hidden
 }
 
@@ -3549,7 +3549,7 @@ p {
 }
 
 .faq-accrodion .accrodion .accrodion-content p {
- 
+
     color: #e0e0e0;
     font-size: 18px;
     line-height: 30px;
@@ -4114,11 +4114,11 @@ p {
 }
 
 .footer-area .footer-copyright ul li a {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
-    margin-left: 26px;
+    margin-left: 47px;
     -webkit-transition: all .3s ease-out 0s;
-    transition: all .3s ease-out 0s
+    transition: all .3s ease-out 0s;
 }
 
 @media (max-width: 767px) {

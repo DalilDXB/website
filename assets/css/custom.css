@@ -39,3 +39,19 @@ ul.menu {
 .banner-area .banner-content {
     padding: 130px 0;
 }
+
+.team-area {
+    background-color: #190427;
+}
+
+.story-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ada2c3;
+    padding-top: 30px;
+
+}
+
+.footer-link a {
+    color: #ffffff;
+}
