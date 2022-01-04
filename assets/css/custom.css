@@ -1,12 +1,12 @@
 .banner-area {
-    min-height: 500px;
+    min-height: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: headslider 3s infinite alternate;
+    animation: banner-animation 2s infinite alternate;
 }
 
-@keyframes headslider {
+@keyframes banner-animation {
     0% {
         background-image: url(../images/header-bg1.jpg);
     }
@@ -47,11 +47,31 @@ ul.menu {
 .story-text {
     font-size: 20px;
     line-height: 30px;
-    color: #ada2c3;
+    color: #ffffff;
     padding-top: 30px;
 
 }
 
 .footer-link a {
     color: #ffffff;
+}
+
+.cd-timeline__content p {
+    font-size: 18px;
+    color: #f8f7ed;
+    margin-top: 30px;
+
+}
+
+.cd-timeline__date img {
+    margin-top: -62px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.team-content h5 {
+    color: rgb(147, 177, 13);
+    text-transform: uppercase;
 }

@@ -3237,8 +3237,7 @@ p {
 
 .team-area .team-item .team-content {
     background-color: rgba(39, 17, 86, 0.6);
-    padding-top: 39px;
-    padding-left: 40px;
+    padding-top: 40px;
     padding-bottom: 20px;
     position: relative
 }
@@ -4965,7 +4964,7 @@ p {
 .crypten-trade-area .item-1 .crypten-trade-content>p {
     font-size: 18px;
     line-height: 30px;
-    color: #ada2c3;
+    color: #ffffff;
     padding-top: 30px
 }
 

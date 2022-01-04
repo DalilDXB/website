@@ -199,28 +199,6 @@ $(function () {
         ]
     });
 
-
-
-
-
-    //===== syotimer js
-    $('#simple_timer').syotimer({
-        year: 2020,
-        month: 9,
-        day: 9,
-        hour: 20,
-        minute: 30,
-    });
-
-
-    //===== nice select
-    $('select').niceSelect();
-
-
-
-
-
-
     //===== Back to top
 
     $(window).on('scroll', function () {
