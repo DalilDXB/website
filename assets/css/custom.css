@@ -72,6 +72,38 @@ ul.menu {
 }
 
 .team-content h5 {
-    color: rgb(147, 177, 13);
+    color: #69bed0;
     text-transform: uppercase;
+}
+
+.team-content h4 {
+    text-transform: uppercase;
+}
+
+
+.team-heading {
+    margin-top: 70px;
+    display: flex;
+
+}
+
+.team-heading img {
+    height: 30px;
+    margin-left: 40px;
+}
+
+.team-heading h3 {
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .team-heading {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .team-heading img {
+        margin-right: 40px;
+    }
+
 }

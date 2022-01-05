@@ -3236,7 +3236,6 @@ p {
 }
 
 .team-area .team-item .team-content {
-    background-color: rgba(39, 17, 86, 0.6);
     padding-top: 40px;
     padding-bottom: 20px;
     position: relative
@@ -3289,10 +3288,10 @@ p {
 }
 
 .team-area .team-item .team-content span {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
-    margin-top: -3px;
-    color: #ada2c3
+    margin-top: 3px;
+    color: #ffffff
 }
 
 .team-area .team-item:hover .team-thumb img {
@@ -3428,7 +3427,7 @@ p {
 
 .faq-accrodion .accrodion.active .accrodion-title::after {
     opacity: 1;
-    color: #ffc50c
+    color: #ffffff
 }
 
 .faq-accrodion .accrodion .accrodion-inner {
@@ -3457,7 +3456,7 @@ p {
 .faq-accrodion .accrodion .accrodion-title::before {
     content: '+';
     font-size: 42px;
-    color: #ffc50c;
+    color: #ffffff;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3517,7 +3516,7 @@ p {
 
 .faq-accrodion .accrodion .accrodion-title h4 {
     margin: 0;
-    color: #ffc50c;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0
