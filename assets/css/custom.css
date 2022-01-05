@@ -1,109 +1,101 @@
 .banner-area {
-    min-height: 700px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: banner-animation 2s infinite alternate;
+  min-height: 900px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: banner-animation 2s infinite alternate;
 }
 
 @keyframes banner-animation {
-    0% {
-        background-image: url(../images/header-bg1.jpg);
-    }
+  0% {
+    background-image: url(../images/header-bg1.jpg);
+  }
 
-    50% {
-        background-image: url(../images/header-bg2.jpg);
+  50% {
+    background-image: url(../images/header-bg2.jpg);
+  }
 
-    }
-
-    100% {
-        background-image: url(../images/header-bg3.jpg);
-    }
+  100% {
+    background-image: url(../images/header-bg3.jpg);
+  }
 }
 
 ul.menu {
-    /* background-color: chartreuse; */
-    margin-left: 98px;
+  /* background-color: chartreuse; */
+  margin-left: 98px;
 }
 
 .highlight {
-
-    color: #f1e757;
+  color: #f1e757;
 }
 
 .timeline .timeline-row:before {
-    background: #dee0e2;
+  background: #dee0e2;
 }
 
-
 .banner-area .banner-content {
-    padding: 130px 0;
+  padding: 130px 0;
 }
 
 .team-area {
-    background-color: #190427;
+  background-color: #190427;
 }
 
 .story-text {
-    font-size: 20px;
-    line-height: 30px;
-    color: #ffffff;
-    padding-top: 30px;
-
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-top: 30px;
 }
 
 .footer-link a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .cd-timeline__content p {
-    font-size: 18px;
-    color: #f8f7ed;
-    margin-top: 30px;
-
+  font-size: 18px;
+  color: #f8f7ed;
+  margin-top: 30px;
 }
 
 .cd-timeline__date img {
-    margin-top: -62px;
+  margin-top: -62px;
 }
 
 .mt-250 {
-    margin-top: 250px;
+  margin-top: 250px;
 }
 
 .team-content h5 {
-    color: #69bed0;
-    text-transform: uppercase;
+  color: #69bed0;
+  text-transform: uppercase;
 }
 
 .team-content h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-
 .team-heading {
-    margin-top: 70px;
-    display: flex;
-
+  margin-top: 70px;
+  display: flex;
 }
 
 .team-heading img {
-    height: 30px;
-    margin-left: 40px;
+  height: 30px;
+  margin-left: 40px;
 }
 
 .team-heading h3 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 @media (max-width: 480px) {
-    .team-heading {
-        flex-direction: row-reverse;
-        justify-content: center;
-    }
+  .team-heading {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
 
-    .team-heading img {
-        margin-right: 40px;
-    }
-
+  .team-heading img {
+    margin-right: 40px;
+  }
 }
