@@ -20,6 +20,10 @@
   }
 }
 
+.crypten-trade-area {
+  overflow: hidden;
+}
+
 ul.menu {
   /* background-color: chartreuse; */
   margin-left: 98px;
@@ -65,11 +69,30 @@ ul.menu {
 }
 
 .cd-timeline__date img {
-  margin-top: -62px;
+  margin-top: -174px;
 }
 
-.mt-250 {
-  margin-top: 250px;
+.discord {
+  padding: 240px 0;
+  background: url(../images/discord.png);
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+@media (max-width: 480px) {
+  .discord {
+    background: none;
+  }
+
+  .discord-btn-mt {
+    margin-top: 50px !important;
+  }
+}
+
+.discord-btn-mt {
+  margin-top: 150px;
 }
 
 .team-content h5 {
