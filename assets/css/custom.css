@@ -69,16 +69,24 @@ ul.menu {
 }
 
 .cd-timeline__date img {
-  margin-top: -174px;
+  margin-top: -70px;
 }
 
 .discord {
-  padding: 240px 0;
-  background: url(../images/discord.png);
+  /* padding: 240px 0; */
+  /* background: url(../images/discord.png); */
   background-color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.dvideo {
+  max-width: 80%;
+}
+
+.crypten-trade-thumb video {
+  max-width: 100%;
 }
 
 @media (max-width: 480px) {
@@ -92,7 +100,7 @@ ul.menu {
 }
 
 .discord-btn-mt {
-  margin-top: 150px;
+  margin-top: 382px;
 }
 
 .team-content h5 {
@@ -102,6 +110,7 @@ ul.menu {
 
 .team-content h4 {
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .team-heading {
