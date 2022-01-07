@@ -45,12 +45,6 @@ ul.menu {
   background-color: #190427;
 }
 
-.our-story {
-  background-image: url(../images/story-bg.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 .story-text {
   font-size: 20px;
   line-height: 30px;
