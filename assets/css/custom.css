@@ -3,20 +3,21 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  animation: banner-animation 2s infinite alternate;
+  animation: banner-animation 5s infinite alternate;
+  animation-timing-function: ease;
 }
 
 @keyframes banner-animation {
   0% {
-    background-image: url(../images/header-bg1.jpg);
+    background-image: url(../images/banner-1.png);
   }
 
   50% {
-    background-image: url(../images/header-bg2.jpg);
+    background-image: url(../images/banner-2.png);
   }
 
   100% {
-    background-image: url(../images/header-bg3.jpg);
+    background-image: url(../images/banner-3.png);
   }
 }
 
