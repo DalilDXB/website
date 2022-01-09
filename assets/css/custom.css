@@ -20,10 +20,17 @@
   }
 }
 
-.crypten-trade-area {
-  overflow: hidden;
+.mt-300 {
+  margin-top: 300px;
 }
 
+.mt-250 {
+  margin-top: 250px;
+}
+
+.mt-400 {
+  margin-top: 400px;
+}
 ul.menu {
   /* background-color: chartreuse; */
   margin-left: 98px;
@@ -76,7 +83,7 @@ ul.menu {
 }
 
 .dvideo {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .crypten-trade-thumb video {
