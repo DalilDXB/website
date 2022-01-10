@@ -872,15 +872,15 @@ p {
 }
 
 .banner-area > .social ul li a {
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
-  margin: 0 10px;
+  margin: 0 18px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 .banner-area > .social ul li a:hover {
-  color: #ffc50c;
+    color: #55bbd3;
 }
 
 .banner-area .banner-content {
@@ -4224,7 +4224,7 @@ p {
 }
 
 .footer-area .footer-copyright ul li a {
-  font-size: 30px;
+  font-size: 45px;
   color: white;
   margin-left: 47px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -4238,7 +4238,7 @@ p {
 }
 
 .footer-area .footer-copyright ul li a:hover {
-  color: #ffc50c;
+    color: #17a2b8;
 }
 
 #scroll_up {
