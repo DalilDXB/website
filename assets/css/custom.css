@@ -33,6 +33,10 @@
   margin-top: 400px;
 }
 
+.mt-700 {
+  margin-top: 700px;
+}
+
 ul.menu {
   /* background-color: chartreuse; */
   margin-left: 98px;
@@ -125,7 +129,7 @@ ul.menu {
 }
 
 .our-story {
-  background-color: #f1e757;
+  /* background-color: #f1e757; */
 }
 
 @media (max-width: 480px) {
@@ -145,7 +149,7 @@ ul.menu {
   position: relative;
   height: auto;
   width: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .video-background-holder video {
