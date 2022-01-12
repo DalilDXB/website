@@ -5,8 +5,8 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  background: #010001;
-  overflow-x: hidden;
+  background: #000000;
+  overflow: hidden;
 }
 
 * {

@@ -205,6 +205,11 @@ $(function () {
     ],
   });
 
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+  });
+
   //===== Back to top
 
   $(window).on("scroll", function () {
@@ -224,9 +229,4 @@ $(function () {
     return false;
   });
   //=====
-});
-
-window.addEventListener("load", function () {
-  const loader = document.querySelector(".loader");
-  loader.className += " hidden"; // class "loader hidden"
 });
