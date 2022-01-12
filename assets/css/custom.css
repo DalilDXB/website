@@ -1,7 +1,7 @@
 .banner-area {
   min-height: 780px;
   background: url(../images/banniere2.png);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /* animation: banner-animation 5s infinite alternate;
