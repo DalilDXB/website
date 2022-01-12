@@ -129,9 +129,9 @@ ul.menu {
   color: #ffffff;
 }
 
-.our-story {
-  /* background-color: #f1e757; */
-}
+/* .our-story {
+ background-color: #f1e757; 
+} */
 
 @media (max-width: 480px) {
   .team-heading {
