@@ -227,24 +227,10 @@ p {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .section-title .title {
-    font-size: 38px;
-    line-height: 48px;
-  }
-}
-
 @media (max-width: 767px) {
   .section-title .title {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .section-title .title {
-    font-size: 38px;
-    line-height: 48px;
+    /* font-size: 30px;
+    line-height: 40px; */
   }
 }
 
