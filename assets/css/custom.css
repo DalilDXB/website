@@ -287,6 +287,9 @@ section.team-section:before {
     display: block;
     z-index: 1;
 }
+section#roadmap .cd-timeline__block:last-child {
+    margin-bottom: 0;
+}
 
 @media (max-width: 767px){
   .team-heading h3 {font-size: 20px;}
