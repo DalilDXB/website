@@ -267,6 +267,6 @@ jQuery(document).ready(function(){
 
 
 
-if($(window).width() <= 767 ){
-  $("video").attr("controls","");
-}
+// if($(window).width() <= 767 ){
+//   $("video").attr("controls","");
+// }
