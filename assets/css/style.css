@@ -229,7 +229,8 @@ p {
 
 @media (max-width: 480px) {
   .section-title .title {
-    font-size: 2em;
+    font-size: 24px;
+    padding: 10px 0;
   }
 }
 
@@ -920,7 +921,15 @@ p {
 }
 
 @media (max-width: 767px){
-  .banner-area .banner-header > .social ul li a{font-size: 30px; margin: 0 10px;}
+  .banner-area .banner-header > .social ul li a{font-size: 18px; margin: 0 8px;}
+  .banner-area .banner-header > .social ul.menu li:last-child a {
+    font-size: 28px;
+    margin: 0 0 0 15px;
+}
+.banner-area .banner-header > .social {
+    display: flex;
+    align-items: center;
+}
 }
 
 
@@ -3705,14 +3714,19 @@ p {
 
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title h4{
-    font-size: 18px;
+    font-size: 14px;
+    text-align: left;
   }
   
   .faq-accrodion .accrodion .accrodion-content p {
     padding-right: 0;
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
   }
+  .faq-accrodion .accrodion .accrodion-inner {padding: 20px 0;}
+  .faq-accrodion .accrodion .accrodion-title::before {font-size: 30px;}
 }
 
 .blog-area {
@@ -4130,9 +4144,17 @@ p {
 
 @media (max-width: 767px) {
   .footer-area {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
+  .footer-video {
+    max-width: 350px !important;
+    width: 100%;
+}
+.justify-content-center {
+    text-align: center;
+}
+
 }
 
 .footer-area .banefits-color-2 {
@@ -4212,7 +4234,8 @@ p {
 }
 
 .footer-area .footer-copyright {
-  margin-top: 85px;
+  margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -4271,14 +4294,15 @@ p {
 .footer-area .footer-copyright ul li a {
   font-size: 45px;
   color: white;
-  margin-left: 47px;
+  margin: 0 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 @media (max-width: 767px) {
   .footer-area .footer-copyright ul li a {
-    margin-left: 18px;
+    margin: 0 10px;
+    font-size: 24px;
   }
 }
 
@@ -5175,7 +5199,7 @@ p {
 
 @media (max-width: 767px) {
   .crypten-trade-area .item-1 .crypten-trade-content > .title {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
   }
   
@@ -5271,7 +5295,9 @@ p {
     margin-left: 0;
   }
   .crypten-trade-area .item-1 .crypten-trade-content > p{
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 24px;
   }
 }
 
@@ -5647,7 +5673,7 @@ p {
 }
 
 .team-section {
-  padding: 700px 0 200px;
+  padding: 700px 0 40px;
 }
 .team-section .video-background-content{
   padding: 100px 0 120px;
@@ -5661,7 +5687,10 @@ p {
     margin-top: 40px;
 }
 
-.footer-area .ft-logo{display: inline-block; margin-top: 30px;}
+.footer-area .ft-logo{display: inline-block; margin-top: 75px;}
+.footer-area .footer-copyright ul {
+    padding-top: 90px;
+}
 
 
 @media (max-width: 1600px){
@@ -5688,16 +5717,16 @@ p {
   .team-heading{justify-content: center;}
 
   .our-story {padding: 30px 0 50px; }
-  .footer-area .footer-copyright ul li a{margin-left: 15px;}
-  .footer-area .ft-logo{margin-top: 0;}
-  .footer-area .ft-logo img{max-width: 100px;}
+  .footer-area .ft-logo{margin-top: 80px;}
+  .footer-area .ft-logo img{max-width: 75px;}
+  .footer-area .footer-copyright ul li a {font-size: 26px;margin: 0 10px;}
 }
 
 @media (max-width: 767px){
   .header-menu{padding: 20px}
   .header-menu ul li a{font-size: 19px;}
 
-  .banner-area{padding-top: 80px;}
+  .banner-area{padding-top: 0;}
   .banner-header .navigation a img {max-width: 50px}
   .banner-header .navigation nav.navbar {padding-left: 0; }
   .banner-area .banner-header > .social {padding-right: 20px; }
@@ -5710,11 +5739,22 @@ p {
 
   .roadmap .section-title{margin-bottom: 0px;}
 
-  .team-section video.teamvideo {position: static; transform: inherit; min-height: auto; max-width: 100%; object-fit: cover; }
+  /*.team-section video.teamvideo {position: static; transform: inherit; min-height: auto; max-width: 100%; object-fit: cover; }*/
   .team-section .video-background-content {padding: 10px 0 20px; }
   .team-section .section-title .title {padding-bottom: 0px; margin-top: 50px; }
 
   .footer-area .footer-copyright {margin-top: 15px; }
+  .cd-timeline {padding: 20px 0 20px 10px;}
+  .cd-timeline__img {box-shadow: none;}
+  .cd-timeline__content p {font-size: 14px;margin-top: 15px;line-height: 24px;}
+  .footer-link a {font-size: 13px;}
+  .footer-area .footer-copyright ul {padding-top: 0;}
+  .footer-area .ft-logo img {max-width: 120px;}
+  .footer-area .ft-logo {margin-top: 0;}
+}
+
+@media (max-width: 480px){
+  .cd-timeline h2 {font-size: 20px;}
 }
 
 
