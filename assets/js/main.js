@@ -4,7 +4,7 @@ $(function () {
   //===== Prealoder
 
   $(window).on("load", function (event) {
-    $("#load").delay(500).fadeOut(500);
+    $("#load").delay(50).fadeOut(500);
   });
 
   //===== Sticky
