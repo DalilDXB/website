@@ -229,7 +229,7 @@ p {
 
 @media (max-width: 480px) {
   .section-title .title {
-    font-size: 24px;
+    font-size: 2em;
   }
 }
 
@@ -920,7 +920,7 @@ p {
 }
 
 @media (max-width: 767px){
-  .banner-area .banner-header > .social ul li a{font-size: 24px; margin: 0 10px;}
+  .banner-area .banner-header > .social ul li a{font-size: 30px; margin: 0 10px;}
 }
 
 
@@ -3705,8 +3705,7 @@ p {
 
 @media (max-width: 767px) {
   .faq-accrodion .accrodion .accrodion-title h4{
-    font-size: 16px;
-    text-align: left;
+    font-size: 18px;
   }
   
   .faq-accrodion .accrodion .accrodion-content p {
@@ -3714,8 +3713,6 @@ p {
     padding-top: 20px;
     font-size: 16px;
   }
-  .faq-accrodion .accrodion .accrodion-inner {padding: 20px 0;}
-  .faq-accrodion .accrodion .accrodion-title::before {font-size: 30px;}
 }
 
 .blog-area {
@@ -4133,17 +4130,9 @@ p {
 
 @media (max-width: 767px) {
   .footer-area {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
-  .footer-video {
-    max-width: 350px;
-    width: 100%;
-}
-.justify-content-center {
-    text-align: center;
-}
-
 }
 
 .footer-area .banefits-color-2 {
@@ -4223,8 +4212,7 @@ p {
 }
 
 .footer-area .footer-copyright {
-  margin-top: 25px;
-    margin-bottom: 20px;
+  margin-top: 85px;
 }
 
 @media (max-width: 767px) {
@@ -4283,15 +4271,14 @@ p {
 .footer-area .footer-copyright ul li a {
   font-size: 45px;
   color: white;
-  margin: 0 20px;
+  margin-left: 47px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 @media (max-width: 767px) {
   .footer-area .footer-copyright ul li a {
-    margin: 0 10px;
-    font-size: 24px;
+    margin-left: 18px;
   }
 }
 
@@ -5188,7 +5175,7 @@ p {
 
 @media (max-width: 767px) {
   .crypten-trade-area .item-1 .crypten-trade-content > .title {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
   }
   
@@ -5285,7 +5272,6 @@ p {
   }
   .crypten-trade-area .item-1 .crypten-trade-content > p{
     font-size: 16px;
-    padding-top: 15px;
   }
 }
 
@@ -5661,7 +5647,7 @@ p {
 }
 
 .team-section {
-  padding: 700px 0 40px;
+  padding: 700px 0 200px;
 }
 .team-section .video-background-content{
   padding: 100px 0 120px;
@@ -5724,19 +5710,11 @@ p {
 
   .roadmap .section-title{margin-bottom: 0px;}
 
-  /*.team-section video.teamvideo {position: static; transform: inherit; min-height: auto; max-width: 100%; object-fit: cover; }*/
+  .team-section video.teamvideo {position: static; transform: inherit; min-height: auto; max-width: 100%; object-fit: cover; }
   .team-section .video-background-content {padding: 10px 0 20px; }
   .team-section .section-title .title {padding-bottom: 0px; margin-top: 50px; }
 
   .footer-area .footer-copyright {margin-top: 15px; }
-  .cd-timeline {padding: 20px 0 20px 10px;}
-  .cd-timeline__img {box-shadow: none;}
-  .cd-timeline__content p {font-size: 16px;margin-top: 15px;}
-  .footer-link a {font-size: 13px;}
-}
-
-@media (max-width: 480px){
-  .cd-timeline h2 {font-size: 20px;}
 }
 
 
