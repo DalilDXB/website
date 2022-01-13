@@ -20,15 +20,18 @@
 
 	<!--====== Fontawesome css ======-->
 	<link rel="stylesheet" href="assets/css/all.css">
+
+	<!--====== Effect css ======-->
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<!--====== Slick css ======-->
-	<link rel="stylesheet" href="assets/css/slick.css">
+	<!-- <link rel="stylesheet" href="assets/css/slick.css"> -->
 
 	<!--====== Swiper css ======-->
-	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<!-- <link rel="stylesheet" href="assets/css/swiper.min.css"> -->
 	<!--====== Default css ======-->
-	<link rel="stylesheet" href="assets/css/default.css">
+	<!-- <link rel="stylesheet" href="assets/css/default.css"> -->
 	<!--====== Style css ======-->
-	<link rel="stylesheet" href="assets/css/aos.css">
+	<!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
 	<link rel="stylesheet" href="assets/css/roadmap.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
@@ -40,7 +43,7 @@
 		<img src="assets/images/logo.png" alt="Loading...">
 	</div> -->
 	<!--====== HEADER PART START ======-->
-	<header class="header-area">
+	<header class="header-area" id="home">
 		<div class="header-nav">
 			<div class="container">
 				<!-- where the nav was remove from -->
@@ -51,38 +54,55 @@
 
 	<!--====== BANNER PART START ======-->
 	<section class="banner-area">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="navigation">
-						<nav class="navbar navbar-expand-lg navbar-light">
-							<a class="navbar-brand m-auto mx-md-n1" href="index.html">
-								<img src="assets/images/meta-pirate-logo.png" alt="">
-							</a>
-						</nav>
+		<div class="banner-header wow fadeInUp">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="navigation">
+							<nav class="navbar navbar-expand-lg navbar-light">
+								<a class="navbar-brand mx-md-n1" href="index.html">
+									<img src="assets/images/meta-pirate-logo.png" alt="">
+								</a>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="social">
+				<ul>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/meta_pirates/"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://discord.io/metapirates"><i class="fab fa-discord"></i></a></li>
+				</ul>
+				<ul class="menu">
+					<li><a href="#"><i class="fas fa-bars"></i></a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="social">
-			<ul>
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="https://www.instagram.com/meta_pirates/"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="https://discord.io/metapirates"><i class="fab fa-discord"></i></a></li>
-			</ul>
-			<ul class="menu">
-				<li><a href="#"><i class="fas fa-bars"></i></a></li>
-			</ul>
+		<div class="header-menu">
+			<button class="btn close-btn"><i class="fa fa-times"></i></button>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#discord">Join Discord</a></li>
+					<li><a href="#roadmap">The Roadmap</a></li>
+					<li><a href="#story">Our Story</a></li>
+					<li><a href="#founders">The Founders</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#faqs">Faq</a></li>
+				</ul>
+		</div>
+		<div class="banner-img  wow fadeInUp">
+			<img src="assets/images/banniere2.png">
 		</div>
 	</section>
 	<!--====== BANNER PART ENDS ======-->
 
 	<!--====== CRYPTEN TRADE PART START ======-->
-	<section class="crypten-trade-area pt-190">
+	<section class="crypten-trade-area">
 		<div class="item-1 item-2">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6 order-lg-1 order-2">
+					<div class="col-lg-6 order-lg-1 order-2 wow fadeInLeft">
 						<div class="crypten-trade-content" data-aos="fade-right">
 							<h3 class="title">META PIRATES NFT COLLECTION</h3>
 							<p>Meta Pirates is a private collection of 8,888 NFTs of exclusive pirates living in the
@@ -98,7 +118,7 @@
 								each having the same vision as you: to seize the riches of web 3.0.</p>
 						</div>
 					</div>
-					<div class="col-lg-6 order-lg-2 order-1">
+					<div class="col-lg-6 order-lg-2 order-1 wow fadeInRight">
 						<div class="crypten-trade-thumb" data-aos="fade-left">
 							<img src="assets/images/Sans-titre.png" alt="">
 						</div>
@@ -106,10 +126,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="item-1 mt-180">
+		<div class="item-1 item-2-row">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-6 wow fadeInLeft">
 						<div class="crypten-trade-thumb" data-aos="fade-right">
 							<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 								<source src="assets/media/meta-pirate.webm" type="video/webm">
@@ -117,7 +137,7 @@
 							</video>
 						</div>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 wow fadeInRight">
 						<div class="crypten-trade-content" data-aos="fade-left">
 							<h3 class="title">EVERYTHING STARTS HERE...</h3>
 							<p>One day, a pirate who had left to discover new lands, comes back claiming to have found a
@@ -139,17 +159,17 @@
 	</section>
 	<!--====== CRYPTEN TRADE PART ENDS ======-->
 	<!-- Join discord section starts-->
-	<section class="discord">
+	<section class="discord" id="discord">
 		<div class="vd-wrap">
-			<div class="video-background-holder">
+			<div class="video-background-holder wow fadeInUp">
 				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="dvideo">
 					<source src="assets/media/sans-titre.webm" type="video/webm">
 					<source src="assets/media/sans-titre.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 				<div class="video-background-content container-fluid">
-					<div class="row pt-80 pb-200">
-						<div class="col-md-4 col-12 text-center text-xl-right">
+					<div class="row">
+						<div class="col-md-4 col-12 text-center text-xl-right wow fadeInLeft">
 							<div class="token-sale-btn discord-btn-mt">
 								<a class="main-btn" href="https://discord.io/metapirates">JOIN OUR DISCORD</a>
 							</div>
@@ -165,25 +185,25 @@
 	</section>
 	<!-- Join discord section ends -->
 	<!--====== TOKEN SALE PART START time line======-->
-	<section class="roadmap">
-		<div class="container mt-120 mb-120">
+	<section class="roadmap" id="roadmap">
+		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-7">
-					<div class="section-title text-center mb-100">
+					<div class="section-title text-center wow fadeInDown">
 						<h3 class="title">The RoadMap</h3>
 					</div>
 				</div>
 			</div>
 			<section class="cd-timeline js-cd-timeline">
 				<div class="container cd-timeline__container">
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--picture">
 							<h4>1</h4>
 						</div> <!-- cd-timeline__img -->
 
 						<div class="cd-timeline__content text-component">
 							<div data-aos="fade-right">
-								<h2>Phase 1: Welcome Aboard!</h2>
+								<h2>Phase 1: Welcome aboard!</h2>
 								<p>Our priority is to develop an active and cohesive crew to ensure the success of
 									our collection.</p>
 								<p>We want our crew to be made up of pirates who share our values and uphold the pirate
@@ -193,7 +213,7 @@
 								<p>We will announce our release date as soon as we are satisfied with the quality and
 									the technical aspects of the project.</p>
 							</div>
-							<div class="flex justify-between items-center">
+							<div class="flex justify-between items-center ">
 								<span class="cd-timeline__date">
 									<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 										<source src="assets/media/compass.webm" type="video/webm">
@@ -203,14 +223,14 @@
 							</div>
 						</div> <!-- cd-timeline__content -->
 					</div>
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--movie">
 							<h4>2</h4>
 						</div> <!-- cd-timeline__img -->
 
 						<div class="cd-timeline__content text-component">
 							<div data-aos="fade-right">
-								<h2>Phase 2: Crew Privileges and Merchandising</h2>
+								<h2>PHASE 2: Crew privileges and Merchandising</h2>
 								<p>Our NFT holders will be invited to exclusive events in the world of cinema, art,
 									watches, entrepreneurship, fashion and
 									parties.
@@ -230,14 +250,14 @@
 						</div> <!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
 					<!-- cd-timeline__block -->
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--picture">
 							<h4>3</h4>
 						</div> <!-- cd-timeline__img -->
 
 						<div class="cd-timeline__content text-component">
 							<div data-aos="fade-right">
-								<h2>Phase 3: Hold To Earn</h2>
+								<h2>Phase 3: HOLD TO EARN</h2>
 								<p>After the reveal, your pirate goes to conquer the blockchain. He will scour the
 									treasures of the blockchain to bring you between 1 and 3 treasure chests per month.
 								</p>
@@ -249,7 +269,7 @@
 							</div>
 							<div class="flex justify-between items-center">
 								<span class="cd-timeline__date">
-									<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+									<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
 										<source src="assets/media/chest.webm" type="video/webm">
 										<source src="assets/media/chest.mp4" type="video/mp4">
 									</video>
@@ -258,14 +278,14 @@
 						</div> <!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
 
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--location">
 							<h4>4</h4>
 						</div> <!-- cd-timeline__img -->
 
 						<div class="cd-timeline__content text-component">
 							<div data-aos="fade-right">
-								<h2>Phase 4: Heart Of Pirates: The Soul Of The Ocean</h2>
+								<h2>Phase 4: Heart of pirates: the soul of the Ocean</h2>
 								<p>Pirates live on the ocean: it allows us to sail, to feed, and to conquer, so we must
 									preserve it.</p>
 								<p>The ocean offers unforgettable moments to all pirates worthy of the name. That is why
@@ -287,7 +307,7 @@
 						</div> <!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
 
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--location">
 							<h4>5</h4>
 						</div> <!-- cd-timeline__img -->
@@ -314,13 +334,13 @@
 						</div> <!-- cd-timeline__content -->
 					</div> <!-- cd-timeline__block -->
 
-					<div class="cd-timeline__block">
+					<div class="cd-timeline__block wow fadeInUp">
 						<div class="cd-timeline__img cd-timeline__img--movie">
 							<h4>6</h4>
 						</div> <!-- cd-timeline__img -->
 						<div class="cd-timeline__content text-component">
 							<div data-aos="fade-right">
-								<h2>Phase 6: Conquering The Oceans Of The Metaverse.</h2>
+								<h2>Phase 6: Conquering the Oceans of the Metaverse.</h2>
 								<p>We've assembled a crew of determined pirates with a thirst for conquest. Now it's
 									time to establish our influence through the oceans of the metaverse!</p>
 								<p>To do this, we need to gather the Meta Pirate members. For this purpose, we will make
@@ -352,11 +372,11 @@
 	</section>
 	<!-- TOKEN SALE PART ENDS -->
 	<!-- story sections start  -->
-	<section class="our-story pt-150 pb-150">
+	<section class="our-story" id="story">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-10">
-					<div class="section-title text-center">
+					<div class="section-title text-center wow fadeInDown">
 						<h3 class="title">Our Story</h3>
 						<p class="story-text">One day, a pirate who had left to discover new lands, comes back claiming
 							to have found a kind of dimensional portal,
@@ -381,11 +401,11 @@
 			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="teamvideo">
 				<source src="assets/media/sea.mp4" type="video/mp4">
 			</video>
-			<div class="video-background-content container mt-400 mb-120">
-				<div class="row justify-content-center">
+			<div class="video-background-content container">
+				<div class="row justify-content-center" id="founders">
 					<div class="col-lg-7">
 						<div class="section-title team-title text-center">
-							<h3 class="title mb-150 ">THE FOUNDERS</h3>
+							<h3 class="title">THE FOUNDERS</h3>
 						</div>
 					</div>
 				</div>
@@ -428,8 +448,8 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title text-center mt-75 pb-30">
+					<div class="col-lg-12" id="team">
+						<div class="section-title text-center">
 							<h3 class="title">THE TEAM</h3>
 						</div>
 					</div>
@@ -628,11 +648,11 @@
 	<!--====== TEAM PART ENDS ======-->
 
 	<!--====== FAQ PART START ======-->
-	<section class="faq-area">
+	<section class="faq-area" id="faqs">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
-					<div class="section-title text-center">
+					<div class="section-title text-center wow fadeInDown">
 						<h3 class="title">FAQ</h3>
 					</div>
 					<div class="tab-content" id="pills-tabContent-2">
@@ -740,12 +760,12 @@
 		<div class="container-fluid">
 			<div class="row align-items-center">
 				<div class="col-12 col-md-4 footer-copyright">
-					<div class="footer-list mt-30">
-						<img src="assets/images/main-logo.png" alt="">
+					<div class="footer-list">
+						<a href="index.html" class="ft-logo"><img src="assets/images/main-logo.png" alt=""></a>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 justify-content-center">
-					<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="footer-video">
+					<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="footer-video" >
 						<source src="assets/media/circuit.webm" type="video/webm">
 						<source src="assets/media/circuit.mp4" type="video/mp4">
 						Your browser does not support the video tag.
@@ -796,17 +816,18 @@
 
 	<!--====== circle progress js ======-->
 	<script src="assets/js/circle-progress.min.js"></script>
-	<script src="assets/js/aos.js"></script>
+	<!-- <script src="assets/js/aos.js"></script> -->
 
 
 	<!--====== Main js ======-->
+	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
+	<!-- <script>
 		AOS.init({
 			duration: 1000,
 
 		});
-	</script>
+	</script> -->
 
 </body>
 
