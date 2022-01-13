@@ -1,10 +1,10 @@
-.banner-area {
+/*.banner-area {
   min-height: 780px;
   background: url(../images/banniere2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+}*/
 
 .footer-video {
   max-width: 100%;
@@ -27,7 +27,7 @@
 }
 
 ul.menu {
-  margin-left: 48px;
+  margin-left: 0px;
 }
 
 .highlight {
@@ -67,8 +67,10 @@ ul.menu {
   margin-top: -70px;
 }
 
-/* .discord {
-} */
+.discord {
+  overflow: hidden;
+  padding-bottom: 100px;
+} 
 
 .dvideo {
   max-width: 100vw;
@@ -78,15 +80,23 @@ ul.menu {
   max-width: 100%;
 }
 
-@media (max-width: 480px) {
-  .discord {
-    background: none;
+@media (max-width: 767px){
+  .discord{overflow: hidden;}
+  .story-text{
+    font-size: 16px;
   }
 }
 
-.discord-btn-mt {
-  margin-top: 440px;
+@media (max-width: 480px) {
+  .discord {
+    background: none;
+    padding-bottom: 10px;
+  }
 }
+
+/*.discord-btn-mt {
+  margin-top: 440px;
+}*/
 
 .team-content h5 {
   color: #69bed0;
@@ -116,33 +126,35 @@ ul.menu {
  background-color: #f1e757; 
 } */
 
-.team-title {
+/*.team-title {
   margin-top: 650px;
-}
+}*/
 
 @media (max-width: 480px) {
   .team-heading {
     justify-content: center;
   }
 
-  .team-heading img {
+  /*.team-heading img {
     margin-right: 40px;
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
-  .team-title {
+  /*.team-title {
     margin-top: 650px;
-  }
+  }*/
 }
 
 /* video background code start */
+.team-section {
+  overflow: hidden;
+}
 
 .video-background-holder {
   position: relative;
   height: auto;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .video-background-holder video {
@@ -154,6 +166,7 @@ ul.menu {
   width: auto;
   height: auto;
   z-index: 0;
+  object-fit: cover;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
