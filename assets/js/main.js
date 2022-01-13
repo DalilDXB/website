@@ -235,16 +235,6 @@ window.addEventListener("load", function () {
 new WOW().init();
 
 
-// Header Sticky
-jQuery(window).scroll(function(){
-  var sticky = jQuery('.banner-header'),
-      scroll = jQuery(window).scrollTop();
-
-  if (scroll >= 100) sticky.addClass('sticky');
-  else sticky.removeClass('sticky');
-});
-
-
 //Header Toggle click Show menu
 
 jQuery('.banner-header .menu a').click(function () {
