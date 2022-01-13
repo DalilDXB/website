@@ -4212,7 +4212,8 @@ p {
 }
 
 .footer-area .footer-copyright {
-  margin-top: 85px;
+  margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -4271,14 +4272,14 @@ p {
 .footer-area .footer-copyright ul li a {
   font-size: 45px;
   color: white;
-  margin-left: 47px;
+  margin: 0 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
 @media (max-width: 767px) {
   .footer-area .footer-copyright ul li a {
-    margin-left: 18px;
+    margin: 0 15px;
   }
 }
 
@@ -5647,7 +5648,7 @@ p {
 }
 
 .team-section {
-  padding: 700px 0 200px;
+  padding: 700px 0 40px;
 }
 .team-section .video-background-content{
   padding: 100px 0 120px;
