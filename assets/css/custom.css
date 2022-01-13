@@ -142,7 +142,7 @@ ul.menu {
   position: relative;
   height: auto;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .video-background-holder video {
