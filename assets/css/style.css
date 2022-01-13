@@ -219,7 +219,7 @@ p {
 }
 
 .section-title .title {
-  font-size: 64px;
+  font-size: 3.5em;
   line-height: 60px;
   font-weight: 600;
   padding: 8px 10px 19px;
@@ -227,10 +227,9 @@ p {
   text-transform: uppercase;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .section-title .title {
-    /* font-size: 30px;
-    line-height: 40px; */
+    font-size: 3em;
   }
 }
 
