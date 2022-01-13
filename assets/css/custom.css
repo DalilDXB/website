@@ -3,7 +3,7 @@
   background: url(../images/banniere2.png);
   background-size: cover;
   background-position: center;
-  *background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .footer-video {
@@ -71,7 +71,7 @@ ul.menu {
 } */
 
 .dvideo {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .crypten-trade-thumb video {
@@ -141,7 +141,7 @@ ul.menu {
 .video-background-holder {
   position: relative;
   height: auto;
-  width: 100%;
+  width: 100vw;
 }
 
 .video-background-holder video {
@@ -197,7 +197,7 @@ ul.menu {
   animation: blink 2s ease-in-out;
 }
 
-.loader.hidden {
+.loader.fade {
   animation: fadeOut 10s;
   animation-fill-mode: forwards;
 }
