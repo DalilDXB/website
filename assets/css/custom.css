@@ -304,4 +304,8 @@ section.team-section:before {
     margin-top: 15px;
     line-height: 24px;
 }
+.cd-timeline__content.text-component {
+    display: flex;
+    flex-flow: column-reverse;
+}
 }
