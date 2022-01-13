@@ -1,16 +1,3 @@
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },2000);
-  }
-}
-
 $(function () {
   "use strict";
 
@@ -246,6 +233,16 @@ window.addEventListener("load", function () {
 
 
 new WOW().init();
+
+
+// Header Sticky
+jQuery(window).scroll(function(){
+  var sticky = jQuery('.banner-header'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 100) sticky.addClass('sticky');
+  else sticky.removeClass('sticky');
+});
 
 
 //Header Toggle click Show menu
