@@ -304,8 +304,12 @@ section.team-section:before {
     margin-top: 15px;
     line-height: 24px;
 }
-.cd-timeline__content.text-component {
-    display: flex;
+
+.crypten-trade-area .row.align-items-center {
     flex-flow: column-reverse;
 }
+.crypten-trade-area .item-2-row .row {
+    flex-flow: column-reverse;
+}
+
 }
