@@ -230,3 +230,53 @@ window.addEventListener("load", function () {
   const loader = document.querySelector(".loader");
   loader.className += " fade"; // class "loader hidden"
 });
+
+
+new WOW().init();
+
+
+// Header Sticky
+jQuery(window).scroll(function(){
+  var sticky = jQuery('.banner-header'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 100) sticky.addClass('sticky');
+  else sticky.removeClass('sticky');
+});
+
+
+//Header Toggle click Show menu
+
+jQuery('.banner-header .menu a').click(function () {
+  event.preventDefault();
+  jQuery('.header-menu').addClass('active');
+});
+jQuery('.header-menu .close-btn').click(function () {
+  jQuery('.header-menu').removeClass('active');
+});
+
+// smooth scroll
+jQuery('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top - 150}, 500);
+});
+
+
+// Menu item click menu close
+jQuery(document).ready(function(){
+  setTimeout(function() {
+  
+    jQuery('.header-menu li a').click(function(){
+       jQuery('.header-menu .close-btn').trigger('click');
+    }); 
+    
+  }, 2000);
+});
+
+
+
+
+
+if($(window).width() <= 767 ){
+  $("video").attr("controls","");
+}
